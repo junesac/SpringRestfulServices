@@ -14,11 +14,11 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>rest</servlet-name>
-		<url-pattern>*.html</url-pattern>
+		<url-pattern>/rest/*</url-pattern>
 	</servlet-mapping>
 
 	<welcome-file-list>
-		<welcome-file>/webapp/resources/index.html</welcome-file>
+		<welcome-file>/resources/index.jsp</welcome-file>
 	</welcome-file-list>
 
 </web-app>

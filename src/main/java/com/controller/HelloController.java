@@ -8,7 +8,7 @@ import com.model.HelloMessage;
 import com.service.HelloService;
 
 @RestController
-@RequestMapping("hello")
+@RequestMapping("rest/hello")
 public class HelloController {
 
 	@Autowired
